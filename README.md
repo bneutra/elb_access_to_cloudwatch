@@ -1,6 +1,6 @@
 # s3-elb-access-logs-to-cloudwatch
 
-Access logs in S3 aren't very useful. Copy them to cloudwatch logs!
+Access logs in S3 aren't very useful. Copy them to cloudwatch logs! This is a standalone script but could be used as a lambda triggerin on ObjectCreated for your bucket.
 
 This script automatically detects alb vs. elb logs and formats them appropriately as json.
 
